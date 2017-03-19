@@ -1,4 +1,4 @@
-@Playbuzz testing task@
+Playbuzz testing task
 
 
 _task description where:_ 
@@ -36,3 +36,6 @@ open new one terminal window, move to playbuzz_test dir run in terminal
 ```
 node ./server/app
 ```
+
+
+_Enjoy!_
