@@ -1,5 +1,7 @@
-#Playbuzz testing task
-_task description where: https://docs.google.com/document/d/1gJavMWhGQgMXl8_sSViwOWJHRf_7UA9MNoTvbeKJqIw/edit
+Playbuzz testing task
+
+
+task description where: https://docs.google.com/document/d/1gJavMWhGQgMXl8_sSViwOWJHRf_7UA9MNoTvbeKJqIw/edit
 
 For this task has been used #AngularJS Boilerplate
 
