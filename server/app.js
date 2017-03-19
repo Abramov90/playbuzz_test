@@ -27,9 +27,9 @@ app.get('/check', function(req, res) {
 				status: error.code
 			});
 		} else {
-			response.writeHeader(200, {"Content-Type": "text/html"});
-			response.write(body);
-			response.end();
+			res.writeHeader(200, {"Content-Type": "text/html"});
+			res.write(body);
+			res.end();
 
 		}
 	});
