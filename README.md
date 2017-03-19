@@ -13,7 +13,12 @@ git clone https://github.com/Abramov90/playbuzz_test.git
 after that move to playbuzz_test dir and run where 
 
 ```
-bower install && npm install
+bower install
+```
+after this run
+
+```
+npm install
 ```
 
 For launching the application run in root directory
@@ -22,7 +27,7 @@ For launching the application run in root directory
 gulp
 ```
 
-open new one terminal window, move to playbuzz_test dir and write down in terminal
+open new one terminal window, move to playbuzz_test dir run in terminal
 
 ```
 node ./server/app
