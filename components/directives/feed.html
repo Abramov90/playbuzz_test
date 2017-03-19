@@ -1,0 +1,10 @@
+<ul class="feed-items-container">
+	<li ng-repeat='item in items' class="feed-item">
+		<div class="item-container">
+			<span class="item-title">{{item.title ? item.title : 'untitled'}}</span>
+			<span class="item-views-count">{{item.views}} views</span>
+			<iframe class="video-container" ng-if="item.available" width="560" height="315" src="{{item.source}}" frameborder="0" allowfullscreen></iframe>
+			<div class="item-error-message" ng-if="!item.available">{{(item.host && (item.host === 'youtube' || item.host === 'facebook') ? item.host : '') + ' content is not available'}}<div>
+		</div>
+	</li>
+</ul>

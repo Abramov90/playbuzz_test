@@ -1,0 +1,88 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden], template {
+  display: none; }
+
+.feed-container {
+	display: block;
+	padding: 0 40px;
+  margin: 0 auto;
+  width: 640px;
+}
+
+.feed-header {
+  color: #8B8F92;
+	background: #E6E6E6;
+	display: block;
+	margin: 0 auto;
+	padding: 15px 30px;
+	width: 600px;
+	text-align: center;
+	text-transform: uppercase;
+  box-shadow: 1px 0px 3px 1px #8B8F92;
+}
+
+.feed-items-container {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.feed-items-container .feed-item {
+  padding: 0 50px;
+}
+
+.feed-items-container .feed-item .item-container {
+  padding-top: 30px;
+  width: 560px;
+  border: 2px solid #E6E6E6;
+  margin-bottom: 30px; 
+  padding-bottom: 0px; 
+}
+
+.feed-items-container .feed-item .item-container span {
+  color: #8B8F92;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  bottom: 10px;
+  padding-left: 20px; 
+}
+
+.feed-items-container .feed-item .item-title {
+  float: left;
+}
+
+.feed-items-container .feed-item .item-views-count {
+  float: right;
+  padding-right: 20px; 
+}
+
+.feed-items-container .feed-item .item-container iframe {
+  position: relative;
+  bottom: -5px;
+}
+
+.feed-items-container .feed-item .item-container .item-error-message {
+  clear: both;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+
